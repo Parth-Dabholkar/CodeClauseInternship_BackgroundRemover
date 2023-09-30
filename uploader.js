@@ -12,7 +12,7 @@ const form = document.querySelector('.former')
         formData.append('image_file', image);
         formData.append('size', 'auto');
 
-        const apiKey = '2zVX2tH4ZQrh3wzKZRJgtvcz';
+        const apiKey = 'Your API Key Here!!';
 
         fetch('https://api.remove.bg/v1.0/removebg',{
             method:'POST',
